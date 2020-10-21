@@ -1,0 +1,10 @@
+Application Info: ${yjl.name}
+Application Port: ${server.port}
+Application Version: ${yjl.version}
+Spring Boot Version: ${spring-boot.version}
+ __  __             _       _
+|  \/  |  __ _     | |     | |
+| |\/| | / _` |    | |     | |
+|_|__|_| \__,_|   _|_|_   _|_|_
+_|"""""|_|"""""|_|"""""|_|"""""|
+"`-1-0-'"`-0-0-'"`-0-0-'"`-0-1-'

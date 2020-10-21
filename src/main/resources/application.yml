@@ -1,0 +1,26 @@
+yjl:
+  name: yjl
+  version: 1.0.0
+
+server:
+  port: 10010
+  servlet:
+  # 应用上下文路径
+    context-path: /yjl
+
+Spring:
+  redis:
+    database: 0
+    host: 192.168.234.10
+    port: 6379
+    # password: @redis.password@
+    lettuce:
+      pool:
+        max-active: 16  #连接池最大连接数,负数不限制
+        min-idle: 1  #连接池最小空闲连接数
+        max-idle: 4  #连接池最大空闲连接数
+        max-wait: -1  #最长等待时间,负数不限制
+    timeout: 5000
+
+logging:
+  config: classpath:log4j2.xml
